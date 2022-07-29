@@ -1,0 +1,17 @@
+[global]
+  dns proxy = no
+  load printers = yes
+  log file = /var/log/samba/%m.log
+  max log size = 50
+  printcap name = /etc/printcap
+  security = user
+  server string = Samba Server
+  workgroup = MYGROUP
+
+[cam]
+  comment = Security Footage
+  path = /srv/cam
+  valid users = tralce
+  public = yes
+  writable = yes
+  guest ok = yes
