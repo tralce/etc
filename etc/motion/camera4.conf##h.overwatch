@@ -1,0 +1,18 @@
+camera_id 4
+camera_name Fire Pit
+
+width 640
+height 480
+
+auto_brightness 1
+
+netcam_url rtsp://172.21.1.94/img/media.sav
+
+stream_limit 0
+stream_localhost off
+stream_port 8084
+stream_quality 100
+
+text_left %$\nthread %t event %v
+text_right %Y-%m-%d\n%T-%q
+text_double on
