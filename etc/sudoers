@@ -1,0 +1,7 @@
+Defaults timestamp_timeout=120,insults,!env_reset
+root ALL=(ALL) ALL
+%sudo ALL=(ALL) ALL
+%sudo ALL=(ALL) NOPASSWD: /usr/bin/snap, /usr/bin/pacdiff, /usr/bin/apt, /usr/bin/apt-get, /usr/bin/yay, /usr/bin/pacman, /usr/bin/mount, /usr/bin/umount, /usr/bin/systemctl, /usr/bin/smartctl, /usr/bin/efibootmgr, /usr/bin/reboot, /usr/bin/poweroff, /usr/bin/snapper, /usr/bin/dmesg, /usr/bin/openvpn
+%wheel ALL=(ALL) ALL
+%wheel ALL=(ALL) NOPASSWD: /usr/bin/snap, /usr/bin/pacdiff, /usr/bin/apt, /usr/bin/apt-get, /usr/bin/yay, /usr/bin/pacman, /usr/bin/mount, /usr/bin/umount, /usr/bin/systemctl, /usr/bin/smartctl, /usr/bin/efibootmgr, /usr/bin/reboot, /usr/bin/poweroff, /usr/bin/snapper, /usr/bin/dmesg, /usr/bin/openvpn
+%nopasswd ALL=(ALL) NOPASSWD: ALL
