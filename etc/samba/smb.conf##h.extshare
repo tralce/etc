@@ -1,0 +1,44 @@
+[global]
+  dns proxy = no
+  load printers = yes
+  log file = /var/log/samba/%m.log
+  max log size = 50
+  printcap name = /etc/printcap
+  security = user
+  server string = Samba Server
+  workgroup = MYGROUP
+
+[rsnap.sh]
+  comment = rsnapshot backups
+  path = /media/6TB/rsnap.sh
+  valid users = tralce
+  user = tralce
+  writeable = yes
+
+[deep_archive]
+  comment = Deep Archive
+  path = /media/6TB/deep_archive
+  valid users = tralce
+  user = tralce
+  writeable = yes
+
+[proxmox]
+  comment = Proxmox
+  path = /media/6TB/proxmox
+  valid users = tralce
+  user = tralce
+  writeable = yes
+
+[4TB]
+  comment = Storage
+  path = /media/4TB
+  valid users = tralce
+  user = tralce
+  writeable = yes
+
+[6TB]
+  comment = Storage
+  path = /media/6TB
+  valid users = tralce
+  user = tralce
+  writeable = yes
