@@ -1,0 +1,10 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = *
+
+[Action]
+Description = Rebuilding repo...
+When = PostTransaction
+Exec = /home/tralce/Scripts/OtherEssentialFiles/dropship/scripts/refresh-repo.sh
