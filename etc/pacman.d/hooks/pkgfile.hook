@@ -1,0 +1,14 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+Description = NOT Updating pkgfile database...
+# Description = Updating pkgfile database...
+When = PostTransaction
+Exec = /usr/bin/true
+# Exec = /usr/bin/pkgfile --update
+

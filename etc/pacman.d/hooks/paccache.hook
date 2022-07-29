@@ -1,0 +1,11 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+Description = Removing all cached pacakges...
+When = PostTransaction
+Exec = /usr/bin/paccache -rk0
