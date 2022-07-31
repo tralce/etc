@@ -7,4 +7,4 @@ Target = *
 [Action]
 Description = Rebuilding repo...
 When = PostTransaction
-Exec = /home/tralce/Scripts/OtherEssentialFiles/dropship/scripts/refresh-repo.sh
+Exec = /home/tralce/.bin-local/refresh-repo.sh
