@@ -16,16 +16,16 @@
   valid users = tralce
   path = /home/tralce
 
-[media]
-  acl allow execute always = true
-  writeable = yes
-  valid users = tralce
-  path = /home/tralce/Media
+# [media]
+#   acl allow execute always = true
+#   writeable = yes
+#   valid users = tralce
+#   path = /home/tralce/Media
 
-[proxmox]
-  path = /home/tralce/proxmox
-  writeable = yes
-  valid users = tralce
+# [proxmox]
+#   path = /home/tralce/proxmox
+#   writeable = yes
+#   valid users = tralce
 
 [sysmedia]
   path = /media
