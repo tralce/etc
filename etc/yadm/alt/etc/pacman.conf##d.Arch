@@ -95,6 +95,7 @@ Include = /etc/pacman.d/mirrorlist
 
 [tralce]
 Server = https://dropship.eclart.xyz/$repo/$arch
+Server = http://172.21.1.22:8181/$repo/$arch
 SigLevel = Optional
 
 # An example of a custom package repository.  See the pacman manpage for
